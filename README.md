@@ -1,72 +1,86 @@
 # 🎆 Fireworks Message Generator
 
-![Preview do projeto](./img-fireworks-message-generator.png)
+<p align="center">
+  <img src="./img-fireworks-message-generator.png" alt="Fireworks Message Generator Preview">
+</p>
 
-![HTML](https://img.shields.io/badge/HTML-5-orange)
-![CSS](https://img.shields.io/badge/CSS-3-blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![Canvas API](https://img.shields.io/badge/API-Canvas-black)
+<p align="center">
+  <a href="https://paulapsox.github.io/fireworks-message-generator/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Online-green?style=for-the-badge">
+  </a>
+  <a href="https://github.com/paulaPSOx/fireworks-message-generator">
+    <img src="https://img.shields.io/badge/GitHub-Repositório-black?style=for-the-badge">
+  </a>
+</p>
 
-Uma animação interativa de **fogos de artifício desenvolvida com JavaScript e Canvas API**, capaz de formar mensagens personalizadas no centro da tela.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-5-orange">
+  <img src="https://img.shields.io/badge/CSS-3-blue">
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow">
+  <img src="https://img.shields.io/badge/Canvas-API-black">
+</p>
+
+---
+
+# 📖 Sobre o projeto
+
+**Fireworks Message Generator** é uma animação interativa de **fogos de artifício criada com JavaScript e Canvas API** que forma mensagens personalizadas no centro da tela.
 
 O usuário pode digitar uma frase e visualizar **fogos que sobem, explodem e revelam letras animadas**, criando um efeito visual dinâmico.
 
----
-
-# 🚀 Demo
-
-Acesse o projeto online:
-
-🔗 https://paulapsox.github.io/fireworks-message-generator/
-
----
-
-# 📂 Repositório
-
-Código fonte disponível em:
-
-🔗 https://github.com/paulaPSOx/fireworks-message-generator
+Também é possível **clicar na tela para gerar fogos adicionais manualmente**.
 
 ---
 
 # ✨ Funcionalidades
 
-- 🎆 Animação de fogos de artifício usando Canvas
-- ✍️ Campo para inserir mensagens personalizadas
-- 🔠 Formação de letras após a explosão
-- 🎈 Balões animados após a explosão das letras
-- 🖱️ Clique na tela para lançar fogos extras
-- 📱 Layout responsivo
+- 🎆 Animação de fogos de artifício usando Canvas  
+- ✍️ Campo para inserir mensagens personalizadas  
+- 🔠 Formação de letras após a explosão  
+- 🎈 Balões animados após a explosão das letras  
+- 🖱️ Clique na tela para lançar fogos extras  
+- 📱 Layout responsivo  
 
 ---
 
 # 🛠 Tecnologias utilizadas
 
-Este projeto foi desenvolvido utilizando:
+<p>
+  <img src="https://img.shields.io/badge/HTML-5-orange">
+  <img src="https://img.shields.io/badge/CSS-3-blue">
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow">
+  <img src="https://img.shields.io/badge/Canvas-API-black">
+</p>
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- **Canvas API**
-- **requestAnimationFrame()**
+---
+
+# 🚀 Acessar o projeto
+
+Projeto online:
+
+https://paulapsox.github.io/fireworks-message-generator/
+
+Repositório:
+
+https://github.com/paulaPSOx/fireworks-message-generator
 
 ---
 
 # ⚙️ Como executar o projeto
 
-## 1️⃣ Clonar o repositório
+### 1️⃣ Clonar o repositório
 
 ```bash
 git clone https://github.com/paulaPSOx/fireworks-message-generator.git
 ```
 
-## 2️⃣ Entrar na pasta do projeto
+### 2️⃣ Entrar na pasta do projeto
 
 ```bash
 cd fireworks-message-generator
 ```
 
-## 3️⃣ Abrir o projeto
+### 3️⃣ Abrir o projeto
 
 Abra o arquivo:
 
@@ -119,9 +133,9 @@ Ao chegar ao destino ocorre uma explosão composta por **partículas animadas**.
 
 Essas partículas possuem:
 
-- velocidade
-- gravidade
-- rastro animado
+- velocidade  
+- gravidade  
+- rastro animado  
 
 ---
 
@@ -135,9 +149,9 @@ Após a explosão, a letra aparece no centro da animação.
 
 Depois de alguns segundos:
 
-- um balão surge abaixo da letra
-- ele infla
-- sobe pela tela até desaparecer
+- um balão surge abaixo da letra  
+- ele infla  
+- sobe pela tela até desaparecer  
 
 ---
 
@@ -159,7 +173,7 @@ Este projeto foi desenvolvido como prática de:
 
 - animações com **Canvas API**
 - manipulação de partículas
-- lógica de animação em JavaScript
+- lógica de animação em **JavaScript**
 - interação com o usuário
 - organização de código front-end
 
@@ -169,17 +183,17 @@ Este projeto foi desenvolvido como prática de:
 
 **Paula Oliveira**
 
-Estudante de **Análise e Desenvolvimento de Sistemas** com interesse em:
+Estudante de **Análise e Desenvolvimento de Sistemas**, com interesse em:
 
-- Desenvolvimento Web
-- Front-end
-- Experiência do Usuário
-- Tecnologia e criatividade
+- Desenvolvimento Web  
+- Front-end  
+- Experiência do Usuário  
+- Tecnologia e criatividade  
 
-🔗 GitHub  
+GitHub  
 https://github.com/paulaPSOx
 
-🔗 LinkedIn  
+LinkedIn  
 https://www.linkedin.com/in/oliveiraspaula/
 
 ---
