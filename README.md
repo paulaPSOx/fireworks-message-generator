@@ -1,201 +1,258 @@
+<div align="center">
+
+<img src="./img-fireworks-message-generator.png" alt="Preview do Fireworks Message Generator" width="100%">
+
+<br><br>
+
 # 🎆 Fireworks Message Generator
 
-<p align="center">
-  <img src="./img-fireworks-message-generator.png" alt="Fireworks Message Generator Preview">
-</p>
+**Mensagens personalizadas transformadas em uma experiência de fogos de artifício.**
 
-<p align="center">
-  <a href="https://paulapsox.github.io/fireworks-message-generator/">
-    <img src="https://img.shields.io/badge/Live%20Demo-Online-green?style=for-the-badge">
-  </a>
-  <a href="https://github.com/paulaPSOx/fireworks-message-generator">
-    <img src="https://img.shields.io/badge/GitHub-Repositório-black?style=for-the-badge">
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML-5-orange">
-  <img src="https://img.shields.io/badge/CSS-3-blue">
-  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow">
-  <img src="https://img.shields.io/badge/Canvas-API-black">
-</p>
-
----
-
-# 📖 Sobre o projeto
-
-**Fireworks Message Generator** é uma animação interativa de **fogos de artifício criada com JavaScript e Canvas API** que forma mensagens personalizadas no centro da tela.
-
-O usuário pode digitar uma frase e visualizar **fogos que sobem, explodem e revelam letras animadas**, criando um efeito visual dinâmico.
-
-Também é possível **clicar na tela para gerar fogos adicionais manualmente**.
-
----
-
-# ✨ Funcionalidades
-
-- 🎆 Animação de fogos de artifício usando Canvas  
-- ✍️ Campo para inserir mensagens personalizadas  
-- 🔠 Formação de letras após a explosão  
-- 🎈 Balões animados após a explosão das letras  
-- 🖱️ Clique na tela para lançar fogos extras  
-- 📱 Layout responsivo  
-
----
-
-# 🛠 Tecnologias utilizadas
+Uma experiência interativa criada com HTML, CSS, JavaScript e Canvas API — onde cada letra ganha vida com luz, partículas e movimento.
 
 <p>
-  <img src="https://img.shields.io/badge/HTML-5-orange">
-  <img src="https://img.shields.io/badge/CSS-3-blue">
-  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow">
-  <img src="https://img.shields.io/badge/Canvas-API-black">
+  <img src="https://img.shields.io/badge/PROJETO-INTERATIVO-8B5CF6?style=for-the-badge" alt="Projeto interativo">
+  <img src="https://img.shields.io/badge/STACK-HTML%20%7C%20CSS%20%7C%20JS-EC4899?style=for-the-badge" alt="HTML CSS JavaScript">
+  <img src="https://img.shields.io/badge/LICENSE-MIT-22C55E?style=for-the-badge" alt="Licença MIT">
 </p>
 
+<p>
+  <a href="https://paulapsox.github.io/fireworks-message-generator/">
+    <img src="https://img.shields.io/badge/🎇_EXPERIMENTAR_ONLINE-8B5CF6?style=for-the-badge" alt="Experimentar online">
+  </a>
+  <a href="https://github.com/paulaPSOx/fireworks-message-generator">
+    <img src="https://img.shields.io/badge/VER_REPOSITÓRIO-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver repositório no GitHub">
+  </a>
+</p>
+
+</div>
+
 ---
 
-# 🚀 Acessar o projeto
+## ✨ Sobre o projeto
 
-Projeto online:
+O **Fireworks Message Generator** é uma animação visual interativa que transforma mensagens em um espetáculo de fogos de artifício.
 
-https://paulapsox.github.io/fireworks-message-generator/
+A experiência começa com a mensagem **“FELIZ ANIVERSÁRIO!”**. Ao digitar um novo texto, as letras passam a ser animadas individualmente: foguetes são lançados, explodem em partículas luminosas e revelam os caracteres. Depois, balões aparecem, inflam e flutuam pela tela.
 
-Repositório:
-
-https://github.com/paulaPSOx/fireworks-message-generator
+A interação não termina na mensagem: **um clique em qualquer ponto da tela também cria fogos adicionais**, permitindo explorar a animação livremente.
 
 ---
 
-# ⚙️ Como executar o projeto
+## 🎇 Experimente
 
-### 1️⃣ Clonar o repositório
+<blockquote>
+  <strong>Digite uma mensagem, observe a animação e clique na tela para criar mais fogos.</strong>
+</blockquote>
+
+- **Aplicação:** [Fireworks Message Generator](https://paulapsox.github.io/fireworks-message-generator/)
+- **Código-fonte:** [GitHub Repository](https://github.com/paulaPSOx/fireworks-message-generator)
+
+---
+
+## 🌟 Funcionalidades
+
+| Recurso | Descrição |
+| :-- | :-- |
+| ✍️ **Mensagem personalizada** | Digite uma frase no campo de texto para atualizar a animação. |
+| 🔠 **Texto em maiúsculas** | A mensagem é convertida para letras maiúsculas. |
+| 🎆 **Fogos animados** | Foguetes percorrem a tela e revelam as letras por meio de explosões. |
+| ✨ **Partículas luminosas** | Partículas com movimento, gravidade e rastros compõem as explosões. |
+| 🎈 **Balões** | Após a aparição das letras, balões são desenhados, inflam e sobem. |
+| 🖱️ **Interação por clique** | Clique na área da animação para criar partículas de fogos extras. |
+| 📱 **Layout adaptável** | Interface com ajustes para telas menores por meio de media queries. |
+
+---
+
+## 🎬 Como a animação acontece
+
+Cada letra é controlada individualmente por uma sequência de fases:
+
+<table>
+  <tr>
+    <td width="25%" align="center">
+      <strong>01 · Lançamento</strong><br><br>
+      🚀<br>
+      <sub>O foguete parte da base e segue até a posição da letra, deixando um rastro luminoso.</sub>
+    </td>
+    <td width="25%" align="center">
+      <strong>02 · Explosão</strong><br><br>
+      🎆<br>
+      <sub>O foguete chega ao destino e cria um círculo de explosão e partículas que se espalham.</sub>
+    </td>
+    <td width="25%" align="center">
+      <strong>03 · Letra</strong><br><br>
+      🔤<br>
+      <sub>O caractere é revelado e permanece visível durante um intervalo da animação.</sub>
+    </td>
+    <td width="25%" align="center">
+      <strong>04 · Balão</strong><br><br>
+      🎈<br>
+      <sub>Um balão surge, infla e sobe até sair da área visível.</sub>
+    </td>
+  </tr>
+</table>
+
+Ao finalizar a sequência, a animação é reiniciada, mantendo o espetáculo em movimento.
+
+---
+
+## 🧠 Por dentro da implementação
+
+O projeto utiliza recursos nativos do navegador para construir a animação sem bibliotecas externas.
+
+| Conceito | Aplicação |
+| :-- | :-- |
+| **Canvas API** | Desenho e atualização dos elementos visuais diretamente na tela. |
+| **`requestAnimationFrame()`** | Loop contínuo para renderizar e atualizar as animações. |
+| **Objetos e protótipos** | Cada letra e partícula possui estado e comportamento próprios. |
+| **Física básica** | Velocidade, gravidade, deslocamento e trajetória das partículas. |
+| **`Math.sin()` e `Math.cos()`** | Cálculo de trajetórias, direções e distribuição das partículas. |
+| **Curvas Bézier** | Construção do formato dos balões. |
+| **Eventos DOM** | Entrada de texto e cliques do usuário. |
+| **Media queries** | Ajustes do campo de texto e ícones em diferentes larguras de tela. |
+
+### Estados da animação
+
+A lógica de cada caractere acompanha diferentes estados, como lançamento, contemplação da letra, balão e conclusão. As partículas também possuem seu próprio ciclo de vida e são removidas da animação quando deixam de estar ativas.
+
+---
+
+## 🛠️ Tecnologias
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="48" alt="HTML5"><br>
+      <strong>HTML5</strong><br>
+      <sub>Estrutura</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="48" alt="CSS3"><br>
+      <strong>CSS3</strong><br>
+      <sub>Estilização</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="48" alt="JavaScript"><br>
+      <strong>JavaScript</strong><br>
+      <sub>Lógica e interação</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/Canvas-API-111111?style=for-the-badge" alt="Canvas API"><br>
+      <strong>Canvas API</strong><br>
+      <sub>Animação gráfica</sub>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+## 📱 Responsividade
+
+O CSS possui ajustes para diferentes larguras de tela:
+
+| Breakpoint | Adaptação |
+| :-- | :-- |
+| `768px` | Ajustes para tablets e telas menores. |
+| `480px` | Campo de mensagem e espaçamentos adaptados para mobile. |
+| `360px` | Ajustes adicionais para telas compactas. |
+
+---
+
+## 🚀 Como executar localmente
+
+O projeto não utiliza frameworks, dependências ou ferramentas de build.
+
+### 1. Clone o repositório
 
 ```bash
 git clone https://github.com/paulaPSOx/fireworks-message-generator.git
 ```
 
-### 2️⃣ Entrar na pasta do projeto
+### 2. Acesse a pasta
 
 ```bash
 cd fireworks-message-generator
 ```
 
-### 3️⃣ Abrir o projeto
+### 3. Abra a aplicação
 
-Abra o arquivo:
+Abra o arquivo `index.html` em um navegador moderno.
 
-```
-index.html
-```
-
-em qualquer navegador moderno.
+Se preferir, utilize o VS Code com a extensão Live Server para executar o projeto localmente.
 
 ---
 
-# 📁 Estrutura do projeto
+## 📂 Estrutura do projeto
 
-```
-fireworks-message-generator
-│
+```text
+fireworks-message-generator/
 ├── index.html
-│
-├── css
-│   └── style.css
-│
 ├── script.js
-│
+├── css/
+│   └── style.css
 ├── img-fireworks-message-generator.png
-│
-└── imagens
-    └── icones
-        ├── github.svg
-        ├── linkedin-in.svg
-        └── icone.png
+├── imagens/
+│   └── icones/
+│       ├── github.svg
+│       ├── linkedin-in.svg
+│       └── icone.png
+├── LICENSE
+└── README.md
 ```
 
 ---
 
-# 🎇 Funcionamento da animação
+## 🎯 Objetivos e aprendizados
 
-Cada letra da mensagem passa por **quatro fases de animação**.
+Este projeto foi uma oportunidade de praticar e explorar:
 
-### 1️⃣ Lançamento do foguete
-
-Um foguete sobe da parte inferior da tela até o ponto onde a letra será exibida.
-
-Durante o trajeto é desenhado um **rastro luminoso animado**.
-
----
-
-### 2️⃣ Explosão
-
-Ao chegar ao destino ocorre uma explosão composta por **partículas animadas**.
-
-Essas partículas possuem:
-
-- velocidade  
-- gravidade  
-- rastro animado  
+- Desenvolvimento de animações com Canvas API.
+- Organização de lógica de animação por estados.
+- Manipulação de partículas e efeitos visuais.
+- Aplicação de conceitos de movimento e gravidade.
+- Criação de desenhos com curvas Bézier.
+- Manipulação de eventos de entrada e clique.
+- Atualização de animações com `requestAnimationFrame()`.
+- Estruturação de uma aplicação front-end sem bibliotecas externas.
 
 ---
 
-### 3️⃣ Aparição da letra
+## 🔮 Ideias para evoluções futuras
 
-Após a explosão, a letra aparece no centro da animação.
-
----
-
-### 4️⃣ Balão
-
-Depois de alguns segundos:
-
-- um balão surge abaixo da letra  
-- ele infla  
-- sobe pela tela até desaparecer  
+- [ ] Permitir controlar cores e efeitos dos fogos.
+- [ ] Adicionar botão para pausar e retomar a animação.
+- [ ] Melhorar o comportamento do texto para diferentes tamanhos de mensagem.
+- [ ] Oferecer opções de velocidade e intensidade.
+- [ ] Criar controles acessíveis para a experiência.
 
 ---
 
-# 📱 Responsividade
+## 📄 Licença
 
-O layout foi adaptado para diferentes tamanhos de tela utilizando **media queries**.
-
-Breakpoints utilizados:
-
-- 768px — tablets  
-- 480px — mobile  
-- 360px — telas pequenas  
+Este projeto está licenciado sob a **MIT License**. Consulte o arquivo [`LICENSE`](./LICENSE) para mais detalhes.
 
 ---
 
-# 🎯 Objetivo do projeto
+<div align="center">
 
-Este projeto foi desenvolvido como prática de:
+## 👩‍💻 Desenvolvido por Paula Oliveira
 
-- animações com **Canvas API**
-- manipulação de partículas
-- lógica de animação em **JavaScript**
-- interação com o usuário
-- organização de código front-end
+Projeto de portfólio desenvolvido para explorar a criatividade e praticar JavaScript, animações e interatividade no navegador.
 
----
+<p>
+  <a href="https://github.com/paulaPSOx">
+    <img src="https://img.shields.io/badge/GitHub-paulaPSOx-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/oliveiraspaula/">
+    <img src="https://img.shields.io/badge/LinkedIn-Paula_Oliveira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+</p>
 
-# 👩‍💻 Autora
+**Se gostou do projeto, deixe uma ⭐ no repositório!**
 
-**Paula Oliveira**
-
-Estudante de **Análise e Desenvolvimento de Sistemas**, com interesse em:
-
-- Desenvolvimento Web  
-- Front-end  
-- Experiência do Usuário  
-- Tecnologia e criatividade  
-
-GitHub  
-https://github.com/paulaPSOx
-
-LinkedIn  
-https://www.linkedin.com/in/oliveiraspaula/
-
----
-
-⭐ Se você gostou do projeto, considere **deixar uma estrela no repositório**.
+</div>
